@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title-section {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title-section form .top-bar {
+  display: flex;
+  background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 45%, #72aa00 100%);
+  height: 2.8rem;
+  padding: 0.7rem;
+  gap: 10px;
+}
+.title-section form .top-bar .title-area {
+  display: flex;
+  list-style: none;
+}
+.title-section form .top-bar .top-bar-section {
+  display: flex;
+}
+.title-section form .top-bar .top-bar-section .right {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  list-style: none;
+}
+.title-section form .top-bar .top-bar-section .right .has-dropdown .dropdown {
+  display: none;
+}
+.title-section form .top-bar .top-bar-section .left {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.title-section form .top-bar .top-bar-section .left .has-form .row {
+  display: inline-flex;
+}
+.title-section form .top-bar .top-bar-section .left .has-form .row .columns {
+  display: flex;
+}
+.title-section form .top-bar .top-bar-section .left .has-form .row .columns input {
+  height: 1.75rem;
+  padding: 0.35rem;
+  border: 0;
+  outline: 0;
+}
+.title-section form .top-bar .top-bar-section .left .has-form .row .columns input::-moz-placeholder {
+  font-size: 0.875rem;
+}
+.title-section form .top-bar .top-bar-section .left .has-form .row .columns input::placeholder {
+  font-size: 0.875rem;
+}
+.title-section form .top-bar .top-bar-section .left .has-form .row .columns-search input {
+  outline: 0;
+  border: 0;
+  height: 1.75rem;
+  padding: 0.35rem;
+  color: white;
+  background: #008cba;
+}
+.title-section form .top-bar .top-bar-section .left .has-dropdown .dropdown {
+  display: none;
+}
+.title-section form a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+.title-section .student-id {
+  padding: 2rem;
+  font-size: 28px;
+}/*# sourceMappingURL=pageStyles.css.map */
