@@ -149,11 +149,12 @@ body {}
 
             }
          }
+
          .line2 {
             display: flex;
             justify-content: center;
 
-            p{
+            p {
                font-size: 20px;
             }
 
@@ -171,16 +172,86 @@ body {}
          }
       }
 
-      .booking{
+      .booking {
          padding: 50px 10%;
 
-         .brand{
+         .brand {
             display: flex;
          }
 
-         .gallery{
+         .gallery {
             display: grid;
-            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: repeat(4, 1fr);
+            width: 750px;
+            height: 306px;
+
+            img {
+               height: 223px;
+               width: 183px;
+            }
+
+            .bransgore {
+
+               a {}
+            }
+
+            .states-list {
+               ul {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  padding: 5px 10px;
+                  background: #e1e7ec;
+
+                  li {
+                     list-style: none;
+                     padding: 1px;
+                     font-size: 14px;
+                     color: #008cba;
+                     font-weight: 500;
+                     display: flex;
+                     gap: 5px;
+                     img{
+                        width: 16px;
+                        height: 16px;
+                     }
+
+                     &:hover {
+                        background: white;
+                        padding: 5px 0px;
+                     }
+
+                     p{
+                        color: gray;
+                     }
+                  }
+               }
+
+               button {
+                  background: #008cba;
+                  color: white;
+                  padding: 10px 0px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-size: 16px;
+                  width: 100%;
+                  height: 35px;
+                  border: 3px white solid;
+
+
+                  i{
+                     margin-right: 5px;
+                     font-size: 20px;
+                  }
+               }
+            }
+         }
+      }
+
+      .popular{
+         h1{
+            font-size: 38px;
          }
       }
    }
