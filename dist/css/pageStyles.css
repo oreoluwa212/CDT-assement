@@ -9,10 +9,11 @@ body .title-section {
 }
 body .title-section form .top-bar {
   display: flex;
+  align-items: center;
   background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 45%, #72aa00 100%);
   height: 2.8rem;
   padding: 0.7rem;
-  gap: 10px;
+  gap: 30px;
 }
 body .title-section form .top-bar .title-area {
   display: flex;
@@ -34,10 +35,13 @@ body .title-section form .top-bar .top-bar-section .right .has-dropdown .dropdow
 body .title-section form .top-bar .top-bar-section .left {
   display: flex;
   list-style: none;
-  gap: 10px;
+  gap: 80px;
+}
+body .title-section form .top-bar .top-bar-section .left .has-form {
+  display: flex;
 }
 body .title-section form .top-bar .top-bar-section .left .has-form .row {
-  display: inline-flex;
+  display: flex;
 }
 body .title-section form .top-bar .top-bar-section .left .has-form .row .columns {
   display: flex;
@@ -61,6 +65,15 @@ body .title-section form .top-bar .top-bar-section .left .has-form .row .columns
   padding: 0.35rem;
   color: white;
   background: #008cba;
+}
+body .title-section form .top-bar .top-bar-section .left .mini-nav {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+body .title-section form .top-bar .top-bar-section .left .has-dropdown a {
+  color: white;
+  font-size: 14px;
 }
 body .title-section form .top-bar .top-bar-section .left .has-dropdown .dropdown {
   display: none;
