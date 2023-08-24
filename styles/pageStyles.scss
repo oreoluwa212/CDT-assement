@@ -172,10 +172,85 @@ body {
          }
 
          .booking {
-            padding: 50px 10% 0px;
+            padding: 50px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
             .brand {
                display: flex;
+               gap: 5px;
+               width: 100%;
+               justify-content: center;
+               align-items: flex-start;
+               padding: 5px 10px 5px 5px;
+
+               img{
+                  height: 35px;
+                  width: 120px;
+               }
+
+               .orange-bg{
+                  background: rgb(247, 191, 87);
+                  width: 60%;
+                  border-radius: 3px;
+                  margin-bottom: .5rem;
+                  height: 40px;
+                  display: flex;
+                  gap: 5px;
+                  align-items: center;
+                  padding: 5px;
+
+                  .white-bg1{
+                     background: #fff;
+                     width: 187px;
+                     height: 30px;
+                     border-radius: 3px;
+                     box-shadow: 0px 2px 4px rgba(117, 112, 112, 0.3);
+                     border: 0;
+                     outline: 0;
+                     padding: 5px;
+
+                     &::placeholder{
+                        font-size: 14px;
+                        letter-spacing: .07rem;
+                     }
+                  }
+                  .white-bg2{
+                     background: #fff;
+                     width: 158px;
+                     height: 30px;
+                     border-radius: 3px;
+                     box-shadow: 0px 2px 4px rgba(117, 112, 112, 0.3);
+                     border: 0;
+                     outline: 0;
+                     padding: 5px;
+                     display: flex;
+
+                     input{
+                        // display: none;
+                        font-size: 14px;
+                        gap: 5px;
+                     }
+                  }
+                  .search-btn{
+                     button{
+                        background: #008cba;
+                        color: #ffffff;
+                        border: 2px white solid;
+                        border-radius: 3px;
+                        font-size: 14px;
+                        text-align: center;
+                        width: 75px;
+                        height: 30px;
+
+                        &:hover{
+                           background: rgb(1, 1, 43);
+                        }
+                     }
+                  }
+               }
             }
 
             .gallery {
