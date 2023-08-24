@@ -162,7 +162,7 @@ body {}
                background: #008cba;
                color: white;
                padding: 16px 0px 17px;
-               margin: 0px 20px 20px;
+               margin: 0px 20px;
                font-size: 16px;
                width: 150px;
                height: 55px;
@@ -173,7 +173,7 @@ body {}
       }
 
       .booking {
-         padding: 50px 10%;
+         padding: 50px 10% 0px;
 
          .brand {
             display: flex;
@@ -183,7 +183,8 @@ body {}
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             width: 750px;
-            height: 306px;
+            height: 260px;
+            padding-bottom: 10px;
 
             img {
                height: 223px;
@@ -211,7 +212,8 @@ body {}
                      font-weight: 500;
                      display: flex;
                      gap: 5px;
-                     img{
+
+                     img {
                         width: 16px;
                         height: 16px;
                      }
@@ -221,7 +223,7 @@ body {}
                         padding: 5px 0px;
                      }
 
-                     p{
+                     p {
                         color: gray;
                      }
                   }
@@ -240,7 +242,7 @@ body {}
                   border: 3px white solid;
 
 
-                  i{
+                  i {
                      margin-right: 5px;
                      font-size: 20px;
                   }
@@ -249,10 +251,158 @@ body {}
          }
       }
 
-      .popular{
-         h1{
+      .popular-section {
+         line-height: 45px;
+
+         h1 {
             font-size: 38px;
+            font-weight: 500;
          }
+
+         .popular {
+            margin: 15px 0px;
+
+
+            a {
+               background: #dddddd;
+               font-size: 18px;
+               padding: 5px;
+               margin: 1px 2px;
+               color: #008cba;
+               font-weight: 400;
+
+            }
+
+            .big-code {
+               font-size: 2em;
+            }
+         }
+      }
+
+      .grey-container {
+         display: flex;
+
+         justify-content: center;
+         align-items: center;
+
+         .grey-box {
+            width: 1000px;
+            height: 678px;
+            padding: 20px;
+            background: #f2f2f2;
+            margin-bottom: 20px;
+            border: 1px rgb(194, 192, 192) solid;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            .text {
+               display: flex;
+               flex-direction: column;
+               gap: 20px;
+
+               p {
+                  font-size: 16px;
+                  font-weight: 600;
+               }
+
+               h3 {
+                  font-size: 16px;
+                  font-weight: 500;
+
+                  span {
+                     font-weight: 600;
+                  }
+               }
+
+               h2 {
+                  font-size: 16px;
+                  font-weight: 500;
+
+                  span {
+                     font-weight: 600;
+                  }
+               }
+            }
+
+            .discover {
+               background: #fff;
+               padding: 5px;
+               width: 970px;
+               height: 380px;
+               margin-top: 1rem;
+
+               .relate {
+                  display: grid;
+                  grid-template-columns: 1fr;
+                  width: 95%;
+                  padding: 5px;
+
+                  .topics {
+                     background: #f2f2f2;
+                     border: 1px rgb(194, 192, 192) solid;
+                     height: 60px;
+                     width: 946px;
+                     border-top-left-radius: 5px;
+                     border-top-right-radius: 5px;
+
+                     .div{
+                        display: flex;
+                        text-align: center;
+                        width: 100%;
+                        justify-content: space-between;
+                        padding: 20px;
+
+                        p{
+                           font-size: 20px;
+                           font-weight: 600;
+                        }
+                     }
+                  }
+                  .topics1 {
+                     background: #fff;
+                     border-bottom: 0.1px rgb(194, 192, 192) solid;
+                     border-left: 0.1px rgb(194, 192, 192) solid;
+                     border-right: 0.1px rgb(194, 192, 192) solid;
+                     height: 60px;
+                     width: 946px;
+
+                     .div {
+                           display: flex;
+                           text-align: center;
+                           width: 100%;
+                           justify-content: space-between;
+                           padding: 20px;
+                           font-family: Verdana, Geneva, Tahoma, sans-serif;
+                     
+                           p {
+                              font-size: 16px;
+                              font-weight: 500;
+
+                              &:hover {
+                                    text-decoration: underline;
+                                 }
+                           }
+                     
+                           .i {
+                              display: flex;
+                              top: 15px;
+                              right: 5px;
+                              font-size: 22px;
+                              color: #aaa4a4;
+                           }
+                        }
+                  }
+
+                  .mapsdata{
+                     border-bottom: 2px rgb(182, 174, 174) solid;
+                  }
+               }
+            }
+         }
+
+
       }
    }
 

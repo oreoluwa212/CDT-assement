@@ -124,14 +124,14 @@
   background: #008cba;
   color: white;
   padding: 16px 0px 17px;
-  margin: 0px 20px 20px;
+  margin: 0px 20px;
   font-size: 16px;
   width: 150px;
   height: 55px;
   border: 0;
 }
 .title-section .main-content .booking {
-  padding: 50px 10%;
+  padding: 50px 10% 0px;
 }
 .title-section .main-content .booking .brand {
   display: flex;
@@ -140,7 +140,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 750px;
-  height: 306px;
+  height: 260px;
+  padding-bottom: 10px;
 }
 .title-section .main-content .booking .gallery img {
   height: 223px;
@@ -189,6 +190,129 @@
   margin-right: 5px;
   font-size: 20px;
 }
-.title-section .main-content .popular h1 {
+.title-section .main-content .popular-section {
+  line-height: 45px;
+}
+.title-section .main-content .popular-section h1 {
   font-size: 38px;
+  font-weight: 500;
+}
+.title-section .main-content .popular-section .popular {
+  margin: 15px 0px;
+}
+.title-section .main-content .popular-section .popular a {
+  background: #dddddd;
+  font-size: 18px;
+  padding: 5px;
+  margin: 1px 2px;
+  color: #008cba;
+  font-weight: 400;
+}
+.title-section .main-content .popular-section .popular .big-code {
+  font-size: 2em;
+}
+.title-section .main-content .grey-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-section .main-content .grey-container .grey-box {
+  width: 1000px;
+  height: 678px;
+  padding: 20px;
+  background: #f2f2f2;
+  margin-bottom: 20px;
+  border: 1px rgb(194, 192, 192) solid;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.title-section .main-content .grey-container .grey-box .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title-section .main-content .grey-container .grey-box .text p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.title-section .main-content .grey-container .grey-box .text h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.title-section .main-content .grey-container .grey-box .text h3 span {
+  font-weight: 600;
+}
+.title-section .main-content .grey-container .grey-box .text h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.title-section .main-content .grey-container .grey-box .text h2 span {
+  font-weight: 600;
+}
+.title-section .main-content .grey-container .grey-box .discover {
+  background: #fff;
+  padding: 5px;
+  width: 970px;
+  height: 380px;
+  margin-top: 1rem;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 95%;
+  padding: 5px;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics {
+  background: #f2f2f2;
+  border: 1px rgb(194, 192, 192) solid;
+  height: 60px;
+  width: 946px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics .div {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics .div p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics1 {
+  background: #fff;
+  border-bottom: 0.1px rgb(194, 192, 192) solid;
+  border-left: 0.1px rgb(194, 192, 192) solid;
+  border-right: 0.1px rgb(194, 192, 192) solid;
+  height: 60px;
+  width: 946px;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics1 .div {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics1 .div p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics1 .div p:hover {
+  text-decoration: underline;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .topics1 .div .i {
+  display: flex;
+  top: 15px;
+  right: 5px;
+  font-size: 22px;
+  color: #aaa4a4;
+}
+.title-section .main-content .grey-container .grey-box .discover .relate .mapsdata {
+  border-bottom: 2px rgb(182, 174, 174) solid;
 }/*# sourceMappingURL=pageStyles.css.map */
