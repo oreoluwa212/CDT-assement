@@ -15,8 +15,13 @@ body {
             align-items: center;
             background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 45%, #72aa00 100%);
             height: 2.8rem;
-            padding: .7rem;
-            gap: 30px;
+            padding: 0.9rem;
+            gap: 40px;
+
+            i{
+               color: white;
+               font-size: 14px;
+            }
 
             .title-area {
                display: flex;
@@ -26,19 +31,20 @@ body {
 
             .top-bar-section {
                display: flex;
-               
-
 
                .right {
                   display: flex;
                   position: fixed;
-                  top: 0;
-                  right: 0;
+                  top: 15px;
+                  right: 45px;
                   list-style: none;
 
                   .has-dropdown {
 
-                     a {}
+                     a {
+                        color: white;
+                        font-size: 14px;
+                     }
 
                      .dropdown {
                         display: none;
@@ -49,10 +55,11 @@ body {
                .left {
                   display: flex;
                   list-style: none;
-                  gap: 80px;
+                  gap: 30px;
 
                   .has-form {
                      display: flex;
+                     padding: 5px 0px 0px;
                      .row {
                         display: flex;
 
@@ -68,6 +75,7 @@ body {
                               &::placeholder {
                                  font-size: 0.875rem;
                               }
+
                            }
                         }
 
@@ -76,6 +84,8 @@ body {
                               outline: 0;
                               border: 0;
                               height: 1.75rem;
+                              width: 7rem;
+                              font-size: .9rem;
                               padding: 0.35rem;
                               color: white;
                               background: #008cba;
@@ -89,14 +99,24 @@ body {
                   .mini-nav{
                      display: flex;
                      gap: 30px;
-                     margin: auto;
                      
                   }
 
                   .has-dropdown {
+                     display: flex;
+                     gap: 15px;
+                     align-items: center;
+                     justify-content: center;
+
                      a {
                         color: white;
                         font-size: 14px;
+                        padding: 5px 0px 0px;
+                     }
+
+                     i{
+
+                        color: #bdb8b8;
                      }
 
                      .dropdown {

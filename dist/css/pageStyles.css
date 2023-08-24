@@ -12,8 +12,12 @@ body .title-section form .top-bar {
   align-items: center;
   background: linear-gradient(to bottom, #bfd255 0%, #8eb92a 45%, #72aa00 100%);
   height: 2.8rem;
-  padding: 0.7rem;
-  gap: 30px;
+  padding: 0.9rem;
+  gap: 40px;
+}
+body .title-section form .top-bar i {
+  color: white;
+  font-size: 14px;
 }
 body .title-section form .top-bar .title-area {
   display: flex;
@@ -25,9 +29,13 @@ body .title-section form .top-bar .top-bar-section {
 body .title-section form .top-bar .top-bar-section .right {
   display: flex;
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 15px;
+  right: 45px;
   list-style: none;
+}
+body .title-section form .top-bar .top-bar-section .right .has-dropdown a {
+  color: white;
+  font-size: 14px;
 }
 body .title-section form .top-bar .top-bar-section .right .has-dropdown .dropdown {
   display: none;
@@ -35,10 +43,11 @@ body .title-section form .top-bar .top-bar-section .right .has-dropdown .dropdow
 body .title-section form .top-bar .top-bar-section .left {
   display: flex;
   list-style: none;
-  gap: 80px;
+  gap: 30px;
 }
 body .title-section form .top-bar .top-bar-section .left .has-form {
   display: flex;
+  padding: 5px 0px 0px;
 }
 body .title-section form .top-bar .top-bar-section .left .has-form .row {
   display: flex;
@@ -62,6 +71,8 @@ body .title-section form .top-bar .top-bar-section .left .has-form .row .columns
   outline: 0;
   border: 0;
   height: 1.75rem;
+  width: 7rem;
+  font-size: 0.9rem;
   padding: 0.35rem;
   color: white;
   background: #008cba;
@@ -69,11 +80,20 @@ body .title-section form .top-bar .top-bar-section .left .has-form .row .columns
 body .title-section form .top-bar .top-bar-section .left .mini-nav {
   display: flex;
   gap: 30px;
-  margin: auto;
+}
+body .title-section form .top-bar .top-bar-section .left .has-dropdown {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
 }
 body .title-section form .top-bar .top-bar-section .left .has-dropdown a {
   color: white;
   font-size: 14px;
+  padding: 5px 0px 0px;
+}
+body .title-section form .top-bar .top-bar-section .left .has-dropdown i {
+  color: #bdb8b8;
 }
 body .title-section form .top-bar .top-bar-section .left .has-dropdown .dropdown {
   display: none;
