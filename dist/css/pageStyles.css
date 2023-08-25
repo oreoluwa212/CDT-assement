@@ -465,4 +465,36 @@ body .bg .footer-flex .About a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
+}
+body .footer {
+  height: 100px;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .footer .text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+body .footer .text p {
+  font-size: 16px;
+  font-weight: 500;
+}
+body .footer .text h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+body .footer .text h3 a {
+  text-decoration: none;
+  color: #008cba;
+}
+body .footer .text h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+body .footer .text h2 span {
+  font-weight: 600;
 }/*# sourceMappingURL=pageStyles.css.map */
