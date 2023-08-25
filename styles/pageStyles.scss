@@ -144,14 +144,14 @@ body {
 
          .student-id {
             font-size: 38px;
-            padding-bottom: 20px;
+
          }
 
          .search-section {
             background: #ffcc99;
-            padding: 20px;
+            padding: 10px;
             border-radius: 15px;
-            border: 2px coral solid;
+            border: 2px rgb(238, 139, 103) solid;
             height: 190px;
             width: 1000px;
 
@@ -205,7 +205,7 @@ body {
          }
 
          .booking {
-            padding: 50px 0px;
+            padding: 30px 0px 0px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -217,7 +217,7 @@ body {
                width: 100%;
                justify-content: center;
                align-items: flex-start;
-               padding: 5px 10px 5px 5px;
+               padding: 5px 10px 0px 5px;
 
                img {
                   height: 25px;
@@ -324,7 +324,7 @@ body {
                grid-template-columns: repeat(4, 1fr);
                width: 750px;
                height: 260px;
-               padding-bottom: 10px;
+
 
                .text-bg {
                   position: absolute;
