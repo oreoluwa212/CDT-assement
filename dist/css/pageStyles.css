@@ -224,9 +224,18 @@ body .title-section .main-content .booking .brand .orange-bg .white-bg2 {
   padding: 5px;
   display: flex;
 }
-body .title-section .main-content .booking .brand .orange-bg .white-bg2 input {
-  font-size: 14px;
-  gap: 5px;
+body .title-section .main-content .booking .brand .orange-bg .white-bg2 .date-input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+}
+body .title-section .main-content .booking .brand .orange-bg .white-bg2 .date-input::before {
+  content: "\f073";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
 }
 body .title-section .main-content .booking .brand .orange-bg .search-btn button {
   background: #008cba;

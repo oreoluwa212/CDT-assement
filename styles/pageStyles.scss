@@ -264,10 +264,19 @@ body {
                      padding: 5px;
                      display: flex;
 
-                     input {
-                        // display: none;
-                        font-size: 14px;
-                        gap: 5px;
+                     .date-input {
+                        width: 100%;
+                        padding: 10px;
+                        border: 0;
+                     }
+
+                     .date-input::before {
+                        content: "\f073";
+                        font-family: "FontAwesome";
+                        position: absolute;
+                        top: 50%;
+                        right: 10px;
+                        transform: translateY(-50%);
                      }
                   }
 
