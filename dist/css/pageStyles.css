@@ -264,9 +264,35 @@ body .title-section .main-content .booking .gallery {
   height: 260px;
   padding-bottom: 10px;
 }
-body .title-section .main-content .booking .gallery img {
+body .title-section .main-content .booking .gallery .text-bg {
+  position: absolute;
+  transform: translate(5%, -350%);
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body .title-section .main-content .booking .gallery .text-bg p {
+  font-size: 16px;
+  display: inline-block;
+}
+body .title-section .main-content .booking .gallery .text-bg h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+body .title-section .main-content .booking .gallery .image img {
   height: 223px;
   width: 183px;
+}
+body .title-section .main-content .booking .gallery img {
+  width: 16px;
+  height: 16px;
 }
 body .title-section .main-content .booking .gallery .states-list ul {
   display: flex;
