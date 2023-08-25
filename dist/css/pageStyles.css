@@ -179,8 +179,9 @@ body .title-section .main-content .booking .brand {
   padding: 5px 10px 5px 5px;
 }
 body .title-section .main-content .booking .brand img {
-  height: 35px;
+  height: 25px;
   width: 120px;
+  margin-top: 10px;
 }
 body .title-section .main-content .booking .brand .orange-bg {
   background: rgb(247, 191, 87);
@@ -269,8 +270,6 @@ body .title-section .main-content .booking .gallery .text-bg {
   transform: translate(5%, -350%);
   padding: 10px 10px;
   background-color: rgba(0, 0, 0, 0.7);
-  height: -moz-fit-content;
-  height: fit-content;
   width: -moz-fit-content;
   width: fit-content;
   color: #fff;
@@ -336,6 +335,23 @@ body .title-section .main-content .booking .gallery .states-list button {
 body .title-section .main-content .booking .gallery .states-list button i {
   margin-right: 5px;
   font-size: 20px;
+}
+body .title-section .main-content .booking .gallery .double {
+  display: flex;
+  padding-right: 20px;
+}
+body .title-section .main-content .booking .gallery .double p {
+  top: 5px;
+  right: 5px;
+}
+body .title-section .main-content .booking .gallery .double {
+  display: flex;
+  padding-left: 95px;
+}
+body .title-section .main-content .booking .gallery .double p {
+  font-size: 12px;
+  color: #989898;
+  font-weight: 600;
 }
 body .title-section .main-content .popular-section {
   line-height: 45px;

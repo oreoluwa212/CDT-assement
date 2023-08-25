@@ -220,8 +220,9 @@ body {
                padding: 5px 10px 5px 5px;
 
                img {
-                  height: 35px;
+                  height: 25px;
                   width: 120px;
+                  margin-top: 10px;
                }
 
                .orange-bg {
@@ -318,23 +319,21 @@ body {
 
                .text-bg {
                   position: absolute;
-                  // bottom: 20px;
-                  // left: 50%;
                   transform: translate(5%, -350%);
                   padding: 10px 10px;
                   background-color: rgba(0, 0, 0, 0.7);
-                  height:fit-content;
                   width: fit-content;
                   color: #fff;
                   display: flex;
                   flex-direction: column;
                   gap: 5px;
 
-                  p{
+                  p {
                      font-size: 16px;
                      display: inline-block;
                   }
-                  h3{
+
+                  h3 {
                      font-size: 14px;
                      font-weight: 500;
                   }
@@ -350,11 +349,6 @@ body {
                img {
                   width: 16px;
                   height: 16px;
-               }
-
-               .bransgore {
-
-                  a {}
                }
 
                .states-list {
@@ -408,6 +402,29 @@ body {
                         font-size: 20px;
                      }
                   }
+               }
+
+               .double {
+                  display: flex;
+                  padding-right: 20px;
+
+                  p {
+                     top: 5px;
+                     right: 5px;
+                  }
+
+               }
+
+               .double {
+                  display: flex;
+                  padding-left: 95px;
+
+                  p {
+                     font-size: 12px;
+                     color: #989898;
+                     font-weight: 600;
+                  }
+
                }
             }
          }
