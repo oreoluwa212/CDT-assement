@@ -234,6 +234,7 @@ body {
                   gap: 5px;
                   align-items: center;
                   padding: 5px;
+                  z-index: -1;
 
                   .white-bg1 {
                      background: #fff;
@@ -282,6 +283,26 @@ body {
 
                         &:hover {
                            background: rgb(1, 1, 43);
+                        }
+                     }
+                  }
+
+                  .guests{
+                     display: flex;
+                     margin-left: 105px;
+
+                     button{
+                        border: 0;
+                        background: #dfdbdb;
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+                        height: 30px;
+                        width: 70px;
+                        z-index: 0;
+                        opacity: .5;
+
+                        i{
+                           padding-right: 5px;
+                           font-size: 12px;
                         }
                      }
                   }
